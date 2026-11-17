@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Eco fleet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.ef-sticky{position:sticky;top:0;background:#1b5e20;color:#fff;text-align:center;padding:10px;z-index:50;font-family:Arial,sans-serif}
+.ef-top{position:fixed;bottom:16px;right:16px;background:#1b5e20;color:#fff;padding:10px 14px;border-radius:20px;text-decoration:none;z-index:100;font-family:Arial,sans-serif}
+.ef-rel{position:relative;max-width:420px;height:170px;margin:20px auto;background:#e8f5d0;border:2px solid #1b5e20;border-radius:10px;font-family:Arial,sans-serif;padding:10px;box-sizing:border-box;top:6px;left:0}
+.ef-abs{position:absolute;bottom:10px;right:10px;background:#1b5e20;color:#fff;padding:8px 12px;border-radius:8px}
+.ef-stack{position:relative;width:320px;height:190px;margin:20px auto;font-family:Arial,sans-serif}
+.ef-stack div{position:absolute;width:150px;height:100px;color:#fff;padding:8px;border-radius:8px;box-sizing:border-box}
+.ef-s1{background:#6774ec;top:0;left:0;z-index:2}
+
+.ef-s2{background:#ec7df1;top:30px;left:60px;z-index:3}
+.ef-s3{background:#f8cf8e;top:60px;left:120px;z-index:1}
+
+  .ef-quad{
+  display:grid;
+  grid-template-columns:1fr 1fr;      /* 2 columns = quadrants */
+  gap:10px;
+  width:min(90%, 500px);              /* 90% of the screen, never wider than 500px */
+  aspect-ratio:1 / 1;                 /* height follows width, so it stays square */
+  margin:20px auto;                   /* centers it horizontally */
+}
+.ef-quad div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-weight:bold;
+  font-size:clamp(.9rem, 4vw, 1.4rem); /* text shrinks and grows with the screen */
+  border-radius:10px;
+  font-family:Arial,sans-serif;
+} 
+@media (max-width:400px){
+  .ef-quad{ grid-template-columns:1fr; aspect-ratio:auto; }
+  .ef-quad div{ padding:30px 0; }
+}
+  </style>
+</head>
+<html lang="en">
+    <body bgcolor="#aad563">
+<div class="ef-sticky">Eco Fleet - Electric Vehicle Fleet Management</div>
+<a class="ef-top" href="#">Top &#8593;</a>
+
+       <table align="center"><tr><td align="center">
+        <img src="image/ecofleet.jpeg" alt="Eco fleet Logo" width="500" height="500">
+      </td></tr></table>
+    <h1 align="center"><strong>Electric Vehicle Fleet Management</strong></h1>
+    <h2 align="center"><b></b></h2><br>
+    <h3 align="center">Tracking, Maintaining, and Optimizing electric 
+      vehicles and their charging infrastructure</h3><br>
+    
+    <center><audio controls>
+  <source src="image/ecofleet audio_2.mp3" type="audio/mpeg">
+
+
+  Your browser does not support the audio tag.
+</audio></center>
+
+    <h2 align="center">What do we do?</h2><br>
+    <table align="center"><tr><td align="center">
+      <video width="640" height="360" controls>
+  <source src="image/movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></td></tr></table>
+<h2 align="center">Locate Us</h2>
+<table align="center">
+  <tr>
+    <td align="center">
+<a href="https://maps.app.goo.gl/rtUda7qLUMR2dxw7A">
+  <img src="image/googlemaps.png" alt="Google maps location" width="400" height="400"></a>
+</td></tr></table>
+
+<table align="center"><tr><td align="center">
+<iframe 
+  width="560" 
+  height="400" 
+  src="https://form.svhrt.com/6aa04dcfa00a75349c4a8722" 
+  title="Website feedback" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe></td></tr></table>
+<br>
+
+<h2><a href="signinform.html">Sign In</a></h2>
+<h2><a href="PRO3.html">Log In</a></h2>
+<h2> <a href="feedbackform.html">Feedback form</a> </h2>
+
+<h2 align="center">Eco Fleet Review</h2>
+<div class="ef-rel">The service was really good.<div class="ef-abs">Submit</div></div>
+<h2 align="center">Features</h2>
+<div class="ef-stack"><div class="ef-s2">Easy Charging</div><div class="ef-s3">Eco-friendly</div><div class="ef-s1"></div></div>
+<h2 align="center">Transport Services</h2>
+<div class="ef-quad">
+  <div style="background:#2e7d32">Cars</div><div style="background:#388e3c">Buses</div>
+  <div style="background:#43a047">Chargers</div><div style="background:#1b5e20">Drivers</div>
+</div>
+
+<footer>
+  <p>Copyright 2026 by ecofleet Data. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
