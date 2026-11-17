@@ -37,6 +37,15 @@
   .ef-quad{ grid-template-columns:1fr; aspect-ratio:auto; }
   .ef-quad div{ padding:30px 0; }
 }
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  img, video, iframe { max-width:100%; }
+  img, video { height:auto; }
+
+  @media (max-width:700px) {
+    table { width:100%; }
+    iframe { width:100%; }
+    input, select, textarea { max-width:100%; box-sizing:border-box; }
+  }
   </style>
 </head>
 <html lang="en">
